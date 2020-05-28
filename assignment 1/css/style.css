@@ -1,58 +1,79 @@
-.col{
-	width: 100%;
-	margin: 10px 0px;
-	padding: 3px;
-    background-color: aqua; 
+.col {
+    width: 100%;
+    margin: 10px 0px;
+    background-color: #999999;
 }
-	
-.wrapper{
-	display: inline-block;
-	float: left;
+.wrapper div {
+    display: inline-block;
+    float: left;
+    border: 1px solid black;
 }
 
-	h1 {
-		color: black;
+.fp {
+	font-size: 30px;
+	font-style: italic;
+}
+
+.p {
+    text-align: justify;
+    padding: 7px;
+}
+h3 {
+    text-align: center;
+    width: 25%;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;
+    line-height: 27px;
+    border: 1px solid black;
+    border-right: none;
+    border-top: none;
+    font-size: 100%;
+}
+
+.c1 {
+
+    background-color: #d59898;
+}
+
+.c2 {
+	background-color: #c14543;
+}
+
+.c3 {
+	background-color: #e5d198;
+}
+
+@media (min-device-width: 768px) and (max-device-width: 991px) {
+	.wrapper div {
+	    display: inline-block;
+	    float: left;
+	    border: 1px solid black;
 	}
-	h3{
-		color: black;
-		text-align: center;
-		width: 100px;
-		height: 30px;
-		margin-bottom: auto;
-		margin-top: auto;
-		float:right;
-		line-height: 27px;
-		font-size: 20px;
-	}
-	p{
-		color: black;
-		text-align: justify;
-		font-size: 20px;
-		border: 5px;
-	}
-	
-	@media 
-  (min-device-width: 768px) 
-  and (max-device-width: 991px) {
     .col {
         width: 47%;
         margin: 0px 10px;
-        padding: 3px;
-        background-color: aqua;
+        background-color: #999999;
     }
     .col1 {
         width: 97%;
         margin: 10px 10px;
-        padding: 3px;
-        background-color: aqua;
+        background-color: #999999;
     }
   }
-	@media screen 
-  and (min-device-width: 1201px) {
+
+
+
+@media screen and (min-device-width: 992px) {
+	.wrapper div {
+    display: inline-block;
+    float: left;
+    border: 1px solid black;
+	}
     .col {
         width: 31%;
         margin: 0px 10px;
-        padding: 3px;
-        background-color: aqua;
+        background-color: #999999;
     }
 }
