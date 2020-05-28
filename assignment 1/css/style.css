@@ -1,0 +1,58 @@
+.col{
+	width: 100%;
+	margin: 10px 0px;
+	padding: 3px;
+    background-color: aqua; 
+}
+	
+.wrapper{
+	display: inline-block;
+	float: left;
+}
+
+	h1 {
+		color: black;
+	}
+	h3{
+		color: black;
+		text-align: center;
+		width: 100px;
+		height: 30px;
+		margin-bottom: auto;
+		margin-top: auto;
+		float:right;
+		line-height: 27px;
+		font-size: 20px;
+	}
+	p{
+		color: black;
+		text-align: justify;
+		font-size: 20px;
+		border: 5px;
+	}
+	
+	@media 
+  (min-device-width: 768px) 
+  and (max-device-width: 991px) {
+    .col {
+        width: 47%;
+        margin: 0px 10px;
+        padding: 3px;
+        background-color: aqua;
+    }
+    .col1 {
+        width: 97%;
+        margin: 10px 10px;
+        padding: 3px;
+        background-color: aqua;
+    }
+  }
+	@media screen 
+  and (min-device-width: 1201px) {
+    .col {
+        width: 31%;
+        margin: 0px 10px;
+        padding: 3px;
+        background-color: aqua;
+    }
+}
